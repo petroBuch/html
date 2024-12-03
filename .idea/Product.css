@@ -1,0 +1,12 @@
+:root{
+    --primary-bg: #141414;
+    --secondary-bg: #1F1F1F;
+    --primary-color: #F4A261;
+    --text-color: #C6EBD2;
+}
+
+body{
+    font-family: 'Nunito Sans';
+    margin: 0;
+    background-color: var(--primary-bg);
+}
