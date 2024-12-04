@@ -24,7 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5%;
-    max-width: 550px;
+    max-width: 50%;
 }
 
 .list_of_images{
@@ -32,7 +32,6 @@ body{
     flex-direction: row;
     gap: 1em;
     overflow-x: auto;
-    max-width: inherit;
     height: 100%;
     margin-left: 10px;
 }
@@ -101,12 +100,12 @@ body{
 }
 
 .product_price>p{
-    width: 100%;
+    width: 60%;
     margin: 0;
 }
 
 .add_to_cart_button{
-    width: 100%;
+    width: 50%;
     min-height: 3rem;
     border: none;
     outline: none;
@@ -124,4 +123,22 @@ body{
 
 .description>p{
     color: #FFF;
+}
+
+@media (width < 990px) {
+    .product{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .product_image{
+
+    }
+}
+
+@media (width < 1200px) {
+    .add_to_cart_button{
+        content: "В корзину";
+    }
 }

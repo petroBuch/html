@@ -9,7 +9,7 @@
 footer{
     display: flex;
     flex-direction: column;
-    padding: 32px 0px 18px 136px;
+    padding: 32px 0px 18px 130px;
     margin-top: 64px;
     background-color: var(--secondary-bg);
     color: var(--text-color);
@@ -94,3 +94,13 @@ hr{
 }
 
 
+@media (width < 990px){
+    footer{
+        padding: 0;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    .foot{
+        flex-direction: column;
+    }
+}

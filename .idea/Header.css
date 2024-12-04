@@ -124,3 +124,13 @@ input {
     background: #292929;
     color: var(--primary-color);
 }
+
+@media (width < 990px) {
+    .dv1{
+        display: none;
+    }
+
+    header{
+        padding-left: 8px;
+    }
+}

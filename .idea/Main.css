@@ -85,4 +85,8 @@ span{
 
 }
 
-
+@media (width < 400px) {
+    .scroller_new{
+        margin: 0;
+    }
+}
